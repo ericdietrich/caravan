@@ -1,17 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+    <head> 
+    <title>Caravan</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit-no">
-    <link rel="stylesheet" href="./style/bootstrap.css">
-    <title>Caravan</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">  
 </head>
+
 <body>
-    <h1 class="text-primary">Teste</h1>
-    <h2 class="text-secondary">Teste</h2>
-    <script src="./scripts/jquery-3.5.1.slim.min.js" type="text/javascript"></script>
-    <script src="./scripts/popper.min.js" type="text/javascript"></script>
-    <script src="./scripts/bootstrap.js" type="text/javascript"></script>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
+        <a src="index.html" class="navbar-brand">
+            <img src="img/caravan.svg" alt="Caravan">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Locais</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="local.html">California</a>
+                        <a class="dropdown-item" href="local.html">Paris</a>
+                        <a class="dropdown-item" href="local.html">Londres</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Planos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-primary ml-md-2" href="#">Inscreva-se</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container-fluid">
+        <div class="row bg-dark  text-white">
+            <div class="col-7">
+
+            </div>
+            <div class="col-lg-5 p-4">
+                <h1 class="display-4">Realize a viagem do seu sonho</h1>
+                <p class="lead">O melhor lugar para sua viagem é com a Caravan, masi de 5.000 excursões concluídas.</p>
+                <form action="">
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                          <button class="btn btn-primary" type="button" id="button-addon2">Inscreva-se</button>
+                        </div>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+ 
+    <script src="./js/jquery-3.5.1.slim.min.js" type="text/javascript"></script>
+    <script src="./js/popper.min.js" type="text/javascript"></script>
+    <script src="./js/bootstrap.js" type="text/javascript"></script>
+    <script src="./js/app.js.js" type="text/javascript"></script>
 </body>
+
 </html>
